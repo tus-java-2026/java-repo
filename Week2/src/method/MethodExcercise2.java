@@ -17,37 +17,33 @@ import java.util.Scanner;
 
 public class MethodExcercise2 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-        int length;
-        int width;
-        int height;
-        int volume;
 
-        System.out.print("Enter length: ");
-        length = sc.nextInt();
+		System.out.print("Enter length: ");
+		int length = sc.nextInt();
 
-        System.out.print("Enter width: ");
-        width = sc.nextInt();
+		System.out.print("Enter width: ");
+		int width = sc.nextInt();
 
-        System.out.print("Enter height: ");
-        height = sc.nextInt();
+		System.out.print("Enter height: ");
+		int height = sc.nextInt();
 
-        volume = calcVolume(length, width, height);
+		int volume = calcVolume(length, width, height);
 
-        System.out.println("The volume is " + volume);
+		System.out.println("The volume is " + volume);
 
-        sc.close();
-    }
+		sc.close();
+	}
 
-    private static int calcVolume(int length, int width, int height) {
+	private static int calcVolume(int length, int width, int height) {
 
-        int volume;
+		int volume;
 
-        volume = length * width * height;
+		volume = length * width * height;
 
-        return volume;
-    }
+		return volume;
+	}
 }

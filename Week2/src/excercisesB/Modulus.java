@@ -1,8 +1,8 @@
 
 
-/*Write a program called Modulus. Take in two integer values from the user;
- *  store in x and y. Using the modulus operator (%), determine if x is a multiple of y.
- */
+/*Write a program called Modulus. Take in two integer values from the user;store in x and y. Using the modulus operator (%), determine if x is a multiple of y.
+ *  store in x and y. Using the modulus operator (%), 
+ *  determine if x is a multiple of y.*/
 package excercisesB;
 
 import java.util.Scanner;

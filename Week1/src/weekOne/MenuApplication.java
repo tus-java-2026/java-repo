@@ -1,13 +1,4 @@
-package weekOne;
-
-import java.util.Scanner;
-
-public class MenuApplication {
-
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
+//MENU APP//
 //		The program should do the following:
 //			•	Show a simple menu with three options:
 //			    1. Say Hello
@@ -18,52 +9,96 @@ public class MenuApplication {
 //			•	If the user enters 3, print a goodbye message and end the loop.
 //			•	Otherwise, after completing the action, ask if the user wants to continue (y/n).
 //			•	Keep repeating as long as the user enters 'y'.
-		
-		
-		char continueChoice;
-		do {
-			
-		System.out.println("1. Say Hello");
-		System.out.println("2. Show your name");
-		System.out.println("3. Exit");
-		System.out.println("Enter numbner of your choice: ");
-		
-		
-		int input = sc.nextInt();
-		
-	if (input == 1) {
-		System.out.println("Hello" );
-		
-	} else if (input == 2) {
-		System.out.println("Enter you name : ");
-		
-		String name = sc.next();
-		System.out.println("your name is: " + name);
-		
-	 } 
-    else if (input == 3) {
-        System.out.println("Goodbye!");
-        break;
-    } 
-    else {
-        System.out.println("Invalid choice!");
-    }
 
 
-     System.out.print("Do you want to continue? (y/n): ");
-     continueChoice = sc.next().charAt(0);
+package weekOne;
 
- } while (continueChoice == 'y');
+import java.util.Scanner;
 
- sc.close();
+public class MenuApplication {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		String continueChoice = "y";
+	while(continueChoice.equalsIgnoreCase("y")) {
+		
+		System.out.println("----Menu App----");
+		System.out.println("1.Say Hello");
+		System.out.println("2.Show your name");
+		System.out.println("3.Exit");
+		System.out.print("Enter your choice (1-3): ");
+		
+		int choice =sc.nextInt();
+		sc.nextLine();//consume new line
+		
+		if (choice == 1) {
+			System.out.println("Hello there!");
+		}else if (choice == 2) {
+			System.out.println("My name is Menu App");
+		}else if (choice == 3){
+		System.out.println("goodbaye");
+		break;
+		
+		}else {
+			System.out.println("Invalid choice. please enter the number between 1 to 3.");
+		}
+		System.out.print("Do you wnat to continue (y/n)?: ");
+		continueChoice = sc.nextLine();
+		}
+	}
 }
-}
-
-
+		
 		
 	
-				
+////
+//				char continueChoice;
+//			do {
+//				
+//			System.out.println("1. Say Hello");
+//			System.out.println("2. Show your name");
+//			System.out.println("3. Exit");
+//			System.out.println("Enter number of your choice: ");
+//				
+//				
+//				int input = sc.nextInt();
+//				
+//			if (input == 1) {
+//				System.out.println("Hello" );
+//				
+//			} else if (input == 2) {
+//				System.out.print("Enter you name : ");
+//				
+//				String name = sc.next();
+//				System.out.println("your name is: " + name);
+//				
+//			 } 
+//		    else if (input == 3) {
+//		        System.out.println("Goodbye!");
+//		        break;
+//		    } 
+//		    else {
+//		        System.out.println("Invalid choice!");
+//		    }
+//		
+//		
+//		     System.out.print("Do you want to continue? (y/n): ");
+//		     continueChoice = sc.next().charAt(0);
+//		
+//		 } while (continueChoice == 'y');
+//	}
 
-	
+
+
+
+		
+
+
+
+
+
+
+
 
 

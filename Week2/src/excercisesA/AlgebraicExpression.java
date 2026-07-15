@@ -4,10 +4,10 @@ public class AlgebraicExpression {
 
 	public static void main(String[] args) {
 		
- /*1.Write a program called AlgebraicExpression. This program is based on the expression y=ax3 + 7. 
- * Initialise x to 2 and a to 3. Using parentheses where needed ensure y evaluates to the following:31 (the normal evaluation).  
- * Show also that by changing the position of the brackets a result of 108 and 66 can be achieved.
-		 
+ /*1.Write a program called AlgebraicExpression. This program is based on 
+  * the expression y=ax3 + 7. Initialise x to 2 and a to 3. Using parentheses where needed 
+  * ensure y evaluates to the following:31 (the normal evaluation).Show also that by
+  *  changing the position of the brackets a result of 108 and 66 can be achieved.	 
  2.	Look up the Math.pow function and use it to evaluate the above expression. */
 
 

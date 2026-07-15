@@ -21,6 +21,7 @@ public class Practice_Exe {
 		        System.out.println(address);
 
 		        // e. Output the year the Olympics were held in Sydney
+		        
 		        System.out.println(2000);
 
 		        // f. Store the year in an int variable

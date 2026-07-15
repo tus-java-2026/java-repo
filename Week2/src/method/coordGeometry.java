@@ -26,7 +26,7 @@ public class coordGeometry {
 		System.out.print("Enter y2: ");
 		double y2 = sc.nextDouble();
 
-		// formula to caculate dfistyance
+		// formula to calculate distance
 		double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
 		System.out.println("The distance between the two points is: " + distance);

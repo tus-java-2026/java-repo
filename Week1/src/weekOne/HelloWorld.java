@@ -1,6 +1,6 @@
 package weekOne;
 
- //package com.ait.exl;//
+//package com.ait.exl;//
 
 public class HelloWorld {
 
@@ -11,7 +11,7 @@ public class HelloWorld {
 		String favouriteMovie = "The Shawshank Redemption";
 		int age = 25;
 		// print output the identifier values
-		
+
 		System.out.println(theNameOfThePersone);
 		System.out.println(theAddress);
 		System.out.println(favouriteMovie);

@@ -13,30 +13,61 @@ public class Circle {
 		
 // initialize variables with using final for constant PI 
 	
-		        Scanner sc = new Scanner(System.in);
+//		        Scanner sc = new Scanner(System.in);
+//
+//		        final double PI = 3.14;
+//
+//		        double radius;
+//		        double diameter;
+//		        double circumference;
+//		        double area;
+//
+//		        System.out.print("Enter radius: ");
+//		        radius = sc.nextDouble();
+//
+//		        diameter = 2 * radius;
+//		        circumference = 2 * PI * radius;
+//		        
+//		        area = PI * radius * radius;
+//
+//		        System.out.println("The diameter is " + diameter);
+//		        System.out.println("The circumference is " + circumference);
+//		        System.out.println("The area is " + area);
+//
+//		        sc.close();
+//		    }
+//		}
 
-		        final double PI = 3.14;
+// Solution by Thiago
 
-		        double radius;
-		        double diameter;
-		        double circumference;
-		        double area;
+	
+		double radius=0, diameter=0, circumference=0, area=0;
+		final double PI=3.14; // a constant (could use Math.PI)
+		
+		// get the radius from the user
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter radius: ");
+		radius = sc.nextDouble();
+		
+		//PI=3.14; // get an error
+		
+		// calculate the diameter
+		diameter = radius * 2;
+		System.out.println("The diameter is "+diameter);
+		
+		// calculate the circumference
+		circumference = PI * diameter;
+		System.out.println("The circumference is "+circumference);
 
-		        System.out.print("Enter radius: ");
-		        radius = sc.nextDouble();
+		// calculate the area
+//		area = PI * (radius * radius);
+		area = PI * Math.pow(radius, 2);
+		System.out.println("The area is "+area);
+	}
 
-		        diameter = 2 * radius;
-		        circumference = 2 * PI * radius;
-		        
-		        area = PI * radius * radius;
+}
 
-		        System.out.println("The diameter is " + diameter);
-		        System.out.println("The circumference is " + circumference);
-		        System.out.println("The area is " + area);
 
-		        sc.close();
-		    }
-		}
 				
 				
 	

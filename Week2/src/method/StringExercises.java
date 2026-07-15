@@ -23,6 +23,14 @@ public class StringExercises {
 
 	}
 
+// question //
+	/*1 - Write a method to perform the following operations on a given string: "JavaProgramming".
+1.	Find and print the length of the string.
+2.	Print the character at index 5.
+3.	Extract and print the substring from index 4 to 9.
+4.	Convert the string to uppercase and print it.
+5.	Check if the string contains the substring "Prog" and print the result.
+6.	Replace the substring "Java" with "Python" and print the new string.*/
 
 	public static void stringMethodExercise() {
 
