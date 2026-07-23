@@ -1,4 +1,4 @@
-package examPractice;
+package IfElse_Switch;
 
 import java.util.Scanner;
 
